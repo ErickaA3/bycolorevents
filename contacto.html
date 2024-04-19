@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByColors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"></head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style-footer.css">
+    <link rel="shortcut icon" href="img/logo-removebg-preview.ico">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        inter: ['Inter', 'sans-serif'],
+                    },
+                },
+            },
+        };
+    </script>
+    <body>
+    <!--NAV BAR--> 
+    <nav class="navbar bg-body-tertiary fixed-top ">
+        <div class="container-fluid navedit">
+          <a class="navbar-brand" href="index.html" style="display: flex; align-items: center;">
+            <img src="img/logo-removebg-preview.svg" alt="Logo" width="70" height="74" class="d-inline-block align-text-top">
+            <span style="margin-left: 10px; font-size: 40px;">By Color Events</span>
+        </a>
+        
+      
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Nosotros</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link active" href="portafolio.html">Portafolio</a>
+                  </li>
+                
+              </ul>
+             
+            </div>
+          </div>
+        </div>
+      </nav>
+      <br id="banner">
+      <br>
+      
+    
+      <main class="relative min-h-screen flex flex-col bg-sky-200 transition-colors duration-700 overflow-hidden" data-bg-scroll>
+                <div class="">
+            <div >
+                
+              <section class="sectioncss" data-bg-class="bg-purple-200">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 offset-md-2">
+                            <p>Para enviar un correo electrónico a By Color Events, por favor envíe su mensaje a la dirección <strong>bycolorsevents@gmail.com</strong>. Asegúrese de incluir en su correo electrónico los siguientes detalles:</p>
+                
+                            <ol class="list-group list-group-numbered">
+                                <li class="list-group-item">El tipo de evento que está planeando.</li>
+                                <li class="list-group-item">Cualquier información relevante sobre el evento, como la fecha, la ubicación y el número estimado de invitados.</li>
+                                <li class="list-group-item">Cualquier requisito especial que tenga para su evento.</li>
+                            </ol>
+                
+                            <p>Una vez que haya enviado su correo electrónico con esta información, nuestro equipo procesará su solicitud y automáticamente se generará un ticket para su seguimiento. Un miembro de nuestro equipo se comunicará con usted lo antes posible.</p>
+                <br>
+                            <p>Tenga en cuenta que nuestro horario de atención para responder correos electrónicos es de <strong>8:00 a.m. a 4:00 p.m.</strong>, de lunes a viernes. Durante este tiempo, nos esforzamos por responder a todos los correos electrónicos de manera oportuna.</p>
+                <br>
+                            <p>Le aseguramos que contamos con un equipo numeroso y dedicado, lo que nos permite atender su solicitud de manera eficiente y profesional. Siempre estamos aquí para ayudarle a hacer realidad su evento.</p>
+                <br>
+                            <p>Gracias por elegir a By Color Events. Esperamos tener la oportunidad de trabajar con usted para crear un evento memorable.</p>
+                <br>
+                            <p>Atentamente,<br>
+                            El equipo de By Color Events</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+            
+                <hr>
+    
+                <!-- Purple section -->
+                
+               
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer class="footer">
+      
+      <ul class="social-icon">
+        <li class="social-icon__item"><a class="social-icon__link" href="https://www.facebook.com/profile.php?id=61558477913501&mibextid=ZbWKwL">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="https://x.com/events_bycolor">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a></li>
+        
+        <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/eventsbycolor?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a></li>
+      </ul>
+      
+      <p>&copy;2024 By Color Events | Todos los derechos reservados</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./bg-scroll.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <a href="#banner" ><img class="hover-link"    src="img/subir-removebg-preview.png" style=" position: fixed; bottom: 0; right: 0; margin: 20px; width: 70px; height: 70px;" /></a>
+
+  </body>
+</html>
