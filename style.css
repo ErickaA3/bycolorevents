@@ -1,0 +1,54 @@
+.banner1{
+    font-size:60px;
+    color: black;
+    font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 10px;
+}
+*{
+
+  color: black;
+  font-family: "Fira Sans", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+.navedit{
+    font-size:40px;
+}
+.contenedor--video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor--video img {
+  -webkit-box-shadow: 2px 2px 49px -11px rgba(0,0,0,0.48);
+  -moz-box-shadow: 2px 2px 49px -11px rgba(0,0,0,0.48);
+  box-shadow: 2px 2px 49px -11px rgba(0,0,0,0.48);
+  width: 1200px;
+  height: 700px;
+  border-radius: 10px;
+}
+video{
+
+  border:#C794FC solid 2px;
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+}
+.aa{
+  font-size: 100px;
+}
+.sectioncss {
+ 
+  padding: 90px;
+  }
+ 
+  /* Estilos para los párrafos dentro de las secciones */
+  .sectioncss h1 {
+    font-size: 60px;
+  }
+  .sectioncss p {
+    text-align: justify;
+    font-size: 20px;
+  }
