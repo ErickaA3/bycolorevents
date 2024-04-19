@@ -31,9 +31,11 @@ font-style: normal;
 }
 video{
 
-  border:#C794FC solid 2px;
-  width: 500px;
-  height: 300px;
+ -webkit-box-shadow: 2px 2px 49px -11px rgba(0,0,0,0.48);
+  -moz-box-shadow: 2px 2px 49px -11px rgba(0,0,0,0.48);
+  box-shadow: 2px 2px 49px -11px rgba(0,0,0,0.48);
+  width: 1200px;
+  height: 700px;
   border-radius: 10px;
 }
 .aa{
