@@ -7,6 +7,9 @@
   padding: 10px;
       text-align: center;
 }
+ion-icon {
+  font-size: 64px;
+}
 *{
 
   color: black;
@@ -61,6 +64,9 @@ video{
     font-size: 20px;
   }
  @media only screen and (max-width: 600px) {
+     ion-icon {
+      display: none;
+    } 
     .banner1{
       font-size:30px;
       color: black;
