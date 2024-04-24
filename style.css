@@ -5,6 +5,7 @@
   font-weight: 400;
   font-style: normal;
   padding: 10px;
+      text-align: center;
 }
 *{
 
@@ -14,7 +15,12 @@ font-weight: 400;
 font-style: normal;
 }
 .navedit{
-    font-size:40px;
+    font-size:50px;
+}
+.navbar{
+  -webkit-box-shadow: 2px 2px 49px -11px rgba(0,0,0,0.48);
+  -moz-box-shadow: 2px 2px 49px -11px rgba(0,0,0,0.48);
+  box-shadow: 2px 2px 49px -11px rgba(0,0,0,0.48);
 }
 .contenedor--video {
   display: flex;
